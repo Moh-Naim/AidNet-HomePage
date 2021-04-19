@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    flex-wrap:wrap;
+}
+header {
+    margin: 0px;
+    padding: 5px;
+}
+.AidNet {
+
+    border: none;
+    margin: calc(2rem -  0.14285714em ) 0em 1rem;
+    padding: 0em 0em;
+    font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1.28571429em;
+    text-transform: none;
+    color: #fff;
+}
+  .a {
+      position: relative;
+      background-image:url(images/image.jpg);
+      background-position: center center;
+      color: #fff;
+      margin: 0rem 0em;
+      padding: 1em 2em;
+  }
+article {
+      margin-left: 70px;
+  } 
+  p {
+      font-size: 20px;
+  }
+#container {
+    margin: 3em;
+    margin-top: 0;
+    padding: 2em;
+    width: 93%;
+    justify-items: stretch;
+    align-items: stretch;
+}
+.wrapper {
+    flex-wrap: wrap;
+    margin: 0em 2em;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.wrapper > div{
+    height: fit-content;
+}
+.wrapper img{
+    margin-left: 10em ;
+}
+footer {
+    padding: 0em 2em;
+    background-color: rgb(27, 15, 59);
+    color: #fff;
+}
