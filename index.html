@@ -2,53 +2,69 @@
 <html lang="eng">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="Chrome">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
         <title>AidNet Homepage</title>
         <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
         <link rel="stylesheet" href="style.css">
-    </head>
+    </head>   
     <body>
-      <header class="a">
-        <div class="ui big inverted secondary pointing menu">
-          <a class="active item">
+      <header id="a" class="ui segment" >
+        <div class="ui big inverted secondary pointing menu" id="wrap">
+          <a class="active item" id="wrap">
             Home
           </a>
-          <a class="item">
+          <a class="item" id="wrap">
             Services
           </a>
-          <a class="item">
+          <a class="item" id="wrap">
             About Us
           </a>
-          <a class="item">
-            Leave Comment
-          </a>
-          <div class="right menu">
-            <button class="ui large inverted white button">Log in</button>
-            <button class="ui large inverted white button">Sign Up</button>
+          <div class="right aligned item" id="wraplogin">
+            <button class="ui medium inverted white button" id="wrap">Log in</button>
           </div>
         </div>
-        <div class="ui center aligned header"> 
-          <div class="ui sizer vertical segment">
+        <div class="ui center aligned header" > 
+          <div class="ui sizer vertical segment" >
             <img src="images/AidNetlogo.svg" width="200px" height="200px">
             <div class="AidNet">
               AidNet
             </div>
-            <p class="ui inverted medium header"> Netting the Aids from Source to Target</p>
           </div>
-          <button class="ui white inverted huge button">
-            Get Started <i class="arrow right icon"></i>
-          </button>
+          <div class="ui header center aligned">
+            <div id="wraplogin">
+              <button class="ui white inverted huge button" >
+              </h1>Get Started <i class="arrow right icon"></i>
+            </button>
+            </div>
+            <h1 class="ui header center aligned inverted ">
+              <div class="ui sub header">Are you a donor, NGO,....?</div>
+              <div class="ui sub header">Then We are your choice!</div>
+          </h1>
+            <button class="ui teal huge button" id="wrapregistration">Sign Up</button>
+            <button class="ui teal huge button" id="wrapregistration">Log in</button>
+          </div>
           <br><br><br><br><br>
-      </header><!--End of Menu-->
+        </div>
+      </header>
+
+
+
+
+
+
+
+
+          
+  
       <h4 class="ui horizontal divider header">
         <i class="tag icon"></i>
         Description
       </h4>
       <br>
-      <article>
-        <div>
-          <div class="ui cards">
+      <article id="wrap">
+        <div class="ui container">
+          <div class="ui cards" id="wrap">
             <div class="card">
               <div class="content">
                 <div class="ui large purple header"><b>Social Project</b></div>
@@ -88,19 +104,30 @@
         <i class="question circle outline icon"></i>
         What We Provide
       </h4>
-      <div class="wrapper">
-        <div>
-          <h1 class="ui huge teal header"><b>For People</b></h1>
-          <p>Connect people with charities that answer what they need efficiently & allow people to rate the charities according to what they provide which helps reveal the truth about how each charity work.
-          </p>
-          <h1 class="ui huge blue header">For Charities</h1>
-          <p>Connect charities with more people to help, exposing them to more donors, unifying their data to avoid repition of accounts, and providing a space to put their data and do their work efficiently. </p>
-          <h1 class="ui huge violet header">For Donors</h1>
-          <p>Connect donors with charities through providing a database about charities that are rated by people which allows them choose most efficient charity.</p>
-        </div>   
-        <div class="image">
-          <img class="ui large image" src="images/AidNetpic.svg"></img>
-        </div> 
+      <div id="dsc1">
+        <div class="wrapper" id="wrap">
+          <div class="ui segment" id="container">
+            <h1 class="ui huge teal header"><b>For People</b></h1>
+            <p>Connect people with charities that answer what they need efficiently & allow people to rate the charities according to what they provide which helps reveal the truth about how each charity work.
+            </p>
+            <h1 class="ui huge blue header">For Charities</h1>
+            <p>Connect charities with more people to help, exposing them to more donors, unifying their data to avoid repition of accounts, and providing a space to put their data and do their work efficiently. </p>
+            <h1 class="ui huge violet header">For Donors</h1>
+            <p>Connect donors with charities through providing a database about charities that are rated by people which allows them choose most efficient charity.</p>
+          </div>
+        </div>
+      </div>
+      <div id="dsc2">
+        <div class="wrapper" id="wrap">
+          <div class="ui segment" id="container">
+            <h1 class="ui medium teal header"><b>For People</b></h1>
+            <p><small>Connect people with charities that answer what they need efficiently & allow people to rate the charities according to what they provide which helps reveal the truth about how each charity work.</small></p>
+            <h1 class="ui medium blue header">For Charities</h1>
+            <p><small> Connect charities with more people to help, exposing them to more donors, unifying their data to avoid repition of accounts, and providing a space to put their data and do their work efficiently. </small></p>
+            <h1 class="ui medium violet header">For Donors</h1>
+            <p><small>Connect donors with charities through providing a database about charities that are rated by people which allows them choose most efficient charity.</small></p>
+          </div>
+        </div>
       </div>
       <br>
       <footer>
@@ -110,5 +137,41 @@
           <br>
         </div>
       </footer> 
+      <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+      <style>
+        @media only screen and (max-width: 700px) {
+          #wraplogin {
+            visibility: hidden;
+            height: 0em;
+          }
+          #dsc1 {
+            visibility: hidden;
+            height: 0em;
+          }
+          #dsc2 {
+            visibility:visible;
+
+          }
+          #wrapregistration #dsc2{
+            visibility: visible;
+          }
+        }
+        @media only screen and (min-width: 700px) {
+          #wrapregistration {
+            visibility: hidden;
+          }
+          #wraplogin {
+            visibility: visible;
+          }
+          #dsc1 {
+            visibility: visible;
+            height: 0em;
+          }
+          #dsc2 {
+            visibility:hidden;
+
+          }
+        }
+      </style>
     </body>
 </html>
