@@ -11,17 +11,17 @@
     <body>
       <header id="a" class="ui segment" >
         <div class="ui big inverted secondary pointing menu" id="wrap">
-          <a class="active item" id="wrap">
+          <a class="active item" id="wrap" href="#">
             Home
           </a>
           <a class="item" id="wrap">
-            Services
+            aaaaaa
           </a>
-          <a class="item" id="wrap">
+          <a href="about.html" class="item" id="wrap">
             About Us
           </a>
           <div class="right aligned item" id="wraplogin">
-            <button class="ui medium inverted white button" id="wrap">Log in</button>
+            <a href="login.html"><button class="ui medium inverted white button" id="wrap">Log in</button></a>
           </div>
         </div>
         <div class="ui center aligned header" > 
@@ -33,16 +33,16 @@
           </div>
           <div class="ui header center aligned">
             <div id="wraplogin">
-              <button class="ui white inverted huge button" >
+              <a href="login.html"><button class="ui white inverted huge button" >
               </h1>Get Started <i class="arrow right icon"></i>
-            </button>
+            </button></a>
             </div>
             <h1 class="ui header center aligned inverted ">
               <div class="ui sub header">Are you a donor, NGO,....?</div>
               <div class="ui sub header">Then We are your choice!</div>
           </h1>
-            <button class="ui teal huge button" id="wrapregistration">Sign Up</button>
-            <button class="ui teal huge button" id="wrapregistration">Log in</button>
+            <a href="login.html"><button  class="ui teal huge button" id="wrapregistration">Sign Up</button></a>
+            <a href="login.html"><button class="ui teal huge button" id="wrapregistration">Log in</button></a>
           </div>
           <br><br><br><br><br>
         </div>
@@ -55,86 +55,13 @@
 
 
 
-          
-  
-      <h4 class="ui horizontal divider header">
-        <i class="tag icon"></i>
-        Description
-      </h4>
-      <br>
-      <article id="wrap">
-        <div>
-          <div class="ui cards" id="wrap">
-            <div class="card">
-              <div class="content">
-                <div class="ui large purple header"><b>Social Project</b></div>
-                <div>
-                <p>Targeted to connect people with the charities that best answer their needs.</p>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <div class="ui large purple header"><b>Fight Corruption</b></div>
-                <div>
-                <p>Project oriented towards transparency and equitable expansion of resources</p>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <div class="ui large purple header"><b>Easy Access</b></div>
-                <div>
-                  <p>Simple design that leads users easily toward providing help for every needy</p>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <div class="ui large purple header"><b>Online Platform</b></div>
-                <div>
-                  <p>Makes use of modern technology to support and repair broken societies</p>
-                </div>
-              </div>
-            </div>
-        </div>
-      </article>
-      <br>
-      <h4 class="ui horizontal divider header">
-        <i class="question circle outline icon"></i>
-        What We Provide
-      </h4>
-      <div id="dsc1">
-        <div class="wrapper" id="wrap">
-          <div class="ui segment" id="container">
-            <h1 class="ui huge teal header"><b>For People</b></h1>
-            <p>Connect people with charities that answer what they need efficiently & allow people to rate the charities according to what they provide which helps reveal the truth about how each charity work.
-            </p>
-            <h1 class="ui huge blue header">For Charities</h1>
-            <p>Connect charities with more people to help, exposing them to more donors, unifying their data to avoid repition of accounts, and providing a space to put their data and do their work efficiently. </p>
-            <h1 class="ui huge violet header">For Donors</h1>
-            <p>Connect donors with charities through providing a database about charities that are rated by people which allows them choose most efficient charity.</p>
-          </div>
-        </div>
-      </div>
-      <div id="dsc2">
-        <div class="wrapper" id="wrap">
-          <div class="ui segment" id="container">
-            <h1 class="ui medium teal header"><b>For People</b></h1>
-            <p><small>Connect people with charities that answer what they need efficiently & allow people to rate the charities according to what they provide which helps reveal the truth about how each charity work.</small></p>
-            <h1 class="ui medium blue header">For Charities</h1>
-            <p><small> Connect charities with more people to help, exposing them to more donors, unifying their data to avoid repition of accounts, and providing a space to put their data and do their work efficiently. </small></p>
-            <h1 class="ui medium violet header">For Donors</h1>
-            <p><small>Connect donors with charities through providing a database about charities that are rated by people which allows them choose most efficient charity.</small></p>
-          </div>
-        </div>
-      </div>
-      <br><br>
+      
       <footer>
         <div>
-          <br><br>
-          <p><small> &copy; 2021; AidNet</small></p><br>
+          <br>
+          <p><small> &copy; 2021; AidNet</small></p>
         </div>
+        <br>
       </footer> 
       <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
       <style>
@@ -143,15 +70,7 @@
             visibility: hidden;
             height: 0em;
           }
-          #dsc1 {
-            visibility: hidden;
-            height: 0em;
-          }
-          #dsc2 {
-            visibility:visible;
-
-          }
-          #wrapregistration #dsc2{
+          #wrapregistration {
             visibility: visible;
           }
         }
@@ -162,14 +81,7 @@
           #wraplogin {
             visibility: visible;
           }
-          #dsc1 {
-            visibility: visible;
-            height: 0em;
-          }
-          #dsc2 {
-            visibility:hidden;
-
-          }
+          
         }
       </style>
     </body>
