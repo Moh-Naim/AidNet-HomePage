@@ -1,88 +1,64 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="chrome=1">
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
-        <title>AidNet Homepage</title>
-        <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
-        <link rel="stylesheet" href="style.css">
-    </head>   
-    <body>
-      <header id="a" class="ui segment" >
-        <div class="ui big inverted secondary pointing menu" id="wrap">
-          <a class="active item" id="wrap" href="#">
-            Home
-          </a>
-          <a class="item" id="wrap">
-            aaaaaa
-          </a>
-          <a href="about.html" class="item" id="wrap">
-            About Us
-          </a>
-          <div class="right aligned item" id="wraplogin">
-            <a href="login.html"><button class="ui medium inverted white button" id="wrap">Log in</button></a>
-          </div>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+    <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
+
+</head>
+
+<body>
+    <div class="ui container">
+        <div class="ui inverted secondary menu">
+            <a class="ui item">Home</a>
+            <a class="ui item">aaaa</a>
+            <a class="ui item" href="about.html">About</a>
+            <a class="ui right secondary  menu" href="login.html">
+                <button class="ui white huge inverted button" style="font-size: 1em;">
+                    Log In
+                  </button>
+            </a>
         </div>
-        <div class="ui center aligned header" > 
-          <div class="ui sizer vertical segment" >
-            <img src="images/AidNetlogo.svg" width="200px" height="200px">
-            <div class="AidNet">
-              AidNet
+    </div>
+    </div>
+    <div id="my-container" class="ui grid middle aligned">
+        <div class="row">
+            <div class="column">
+                <img src="images/AidNetlogo.svg" style="height: 250px;" class="ui centered image">
+                <header class="ui centered inverted huge header" style="font-size: 5em; margin-top: -30px;">AidNet</header>
+                <header class="ui centered inverted huge header"> <button class="ui huge centered inverted  button">Get Started</button>
+                </header>
+                <h2 class="ui centered inverted header" style="font-size: 15px;">ARE YOU A DONOR, NGO,....?<br> THEN WE ARE YOUR CHOICE</h2>
             </div>
-          </div>
-          <div class="ui header center aligned">
-            <div id="wraplogin">
-              <a href="login.html"><button class="ui white inverted huge button" >
-              </h1>Get Started <i class="arrow right icon"></i>
-            </button></a>
-            </div>
-            <h1 class="ui header center aligned inverted ">
-              <div class="ui sub header">Are you a donor, NGO,....?</div>
-              <div class="ui sub header">Then We are your choice!</div>
-          </h1>
-            <a href="login.html"><button  class="ui teal huge button" id="wrapregistration">Sign Up</button></a>
-            <a href="login.html"><button class="ui teal huge button" id="wrapregistration">Log in</button></a>
-          </div>
-          <br><br><br><br><br>
         </div>
-      </header>
+    </div>
 
-
-
-
-
-
-
-
-      
-      <footer>
-        <div>
-          <br>
-          <p><small> &copy; 2021; AidNet</small></p>
-        </div>
-        <br>
-      </footer> 
-      <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
-      <style>
-        @media only screen and (max-width: 700px) {
-          #wraplogin {
-            visibility: hidden;
-            height: 0em;
-          }
-          #wrapregistration {
-            visibility: visible;
-          }
+    <style>
+        * {
+            margin: 0;
         }
-        @media only screen and (min-width: 700px) {
-          #wrapregistration {
-            visibility: hidden;
-          }
-          #wraplogin {
-            visibility: visible;
-          }
-          
+        
+        body {
+            background-image: url(" images/image.jpg ");
+            position: relative;
+            background-image: url(images/image.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+            margin: 0rem 0em;
+            padding: 1em 2em;
         }
-      </style>
-    </body>
+        
+        #my-container {
+            height: 80vh;
+            width: 100%;
+        }
+    </style>
+</body>
+
 </html>
